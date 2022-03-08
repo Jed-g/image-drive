@@ -5,6 +5,7 @@ Live demo is available [here](https://imagedrive.jgolebiewski.com).
 # Getting Started
 To run the project locally or in a production setting:
 1. Make sure you have node.js and npm installed
+
 2. Clone the repository  
 `git clone https://github.com/Jed-g/image-drive.git`
 3. Navigate to the newly created folder in the console and run  
@@ -25,6 +26,7 @@ to install the project dependencies
 >export  const  GA_TRACKING_ID = "\<Insert Google Analytics Tracking Id>";
 9. To run the application in a development environment, run  
 `npm run dev`
+
 10. To run the application in a production environment, run  
 `npm start`  
 This will build the project and run it
