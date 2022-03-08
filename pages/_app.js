@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }) {
               content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
             />
           </Head>
-          <GoogleReCaptchaProvider reCaptchaKey="<Public reCAPTCHA Key>">
+          <GoogleReCaptchaProvider reCaptchaKey="<Public reCAPTCHA v3 Key>">
             <Component {...pageProps} setLoading={setLoading} />
           </GoogleReCaptchaProvider>
         </Layout>
