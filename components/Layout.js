@@ -27,6 +27,9 @@ function selectTheme(state, themeType) {
 
   let lightTheme = createMuiTheme({
     palette: {
+      background: {
+        default: "#F0F0F0",
+      },
       type: "light",
     },
   });

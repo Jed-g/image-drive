@@ -56,7 +56,7 @@ function Header({ setTheme }) {
                 {theme.palette.type === "dark" ? (
                   <Brightness2Icon />
                 ) : (
-                  <Brightness7Icon />
+                  <Brightness7Icon style={{ color: "white" }} />
                 )}
               </IconButton>
             </div>
